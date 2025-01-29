@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+    </head>
+
+    <body>
+
+        <header>
+            <ul><li><a href="table.html">Table</a></li></ul>
+            <h1>Welcome!</h1>
+            <p>Discover who I am, my passions, and my journey.</p>
+        </header>
+
+        <main>
+            <section>
+                <h2>Who Am I?</h2>
+                <picture>
+                    <source media="(max-width: 480px)" srcset="image-small.jpg">
+                    <source media="(max-width: 768px)" srcset="image-medium.jpg">
+                    <source media="(max-width: 1024px)" srcset="image-large.jpg">
+                    <source media="(min-width: 1025px)" srcset="image-xlarge.jpg">
+                    <img src="image-xlarge.jpg" alt="A classic girl" class="responsive-image">
+                </picture>
+
+                <p>I'm a passionate backend developer and Cloud DevOps enthusiast who loves building scalable and
+                    efficient systems.</p>
+
+            </section>
+
+            <section>
+                <h2>Listen to My Voice 🎤</h2>
+                <audio controls>
+                    <source src="audio/my-voice.mp3" type="audio/mpeg">
+                    <source src="audio/my-voice.ogg" type="audio/ogg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Click play to hear my personal message!</p>
+            </section>
+
+
+            <section>
+                <h2>My Story 📽️</h2>
+                <video controls width="100%">
+                    <source src="videos/my-story.mp4" type="video/mp4">
+                    <source src="videos/my-story.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Watch this short video about my journey in tech.</p>
+            </section>
+            <section>
+                <h2>Watch this funny video😁</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/if3IfOHQpZk?si=i-lU2jO83FC-8b6j"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2>Where I'm From 📍</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63257.20410311397!2d4.435055999999999!3d7.728635549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103829b20138cf6d%3A0x3baebcd1703938b3!2sEde%2C%20Osun!5e0!3m2!1sen!2sng!4v1738155119489!5m2!1sen!2sng"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </section>
+        </main>
+
+        <footer>
+            <p>&lt;&lt;&lt;&copy; 2025 Adenike Adetokun. All rights reserved.&gt;&gt;&gt;</p>
+        </footer>
+        </footer>
+
+    </body>
+
+</html>
