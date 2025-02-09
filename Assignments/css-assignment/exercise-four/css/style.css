@@ -1,0 +1,161 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7fcfc;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 460px;
+  margin-top: 100px;
+}
+
+.form-container {
+  padding: 50px 30px;
+  width: 580px;
+  background-color: #fff;
+  box-shadow: 0px 4px 50px 0px #0408131a;
+  border-radius: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input,
+select,
+button {
+  padding: 18px 20px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  color: #777;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 100%;
+  position: relative;
+}
+
+.outer-form-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: inherit;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+button {
+  background-color: #2ec4b6;
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px 0px #0000001a;
+  border-color: #2ec4b6;
+  color: #fff;
+}
+
+.form-container p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="password"] {
+  position: relative;
+}
+
+.form-group i {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  color: #999;
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+a:link,
+a:visited {
+  color: #2ec4b6;
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    justify-items: center;
+    align-items: center;
+    height: max-content;
+    padding: 30px 0px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+  }
+
+  .form-container {
+    max-width: fit-content;
+  }
+
+  form {
+    gap: 24px;
+  }
+
+  .outer-form-group {
+    gap: 24px;
+  }
+
+  .left-section {
+    gap: 40px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 100%;
+  }
+
+  form {
+    gap: 20px;
+  }
+
+  .outer-form-group {
+    flex-direction: column;
+  }
+  .left-section {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>More Css Exercise 4</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <div class="logo">
+          <img src="/asset/Logo.png" alt="logo" />
+        </div>
+        <h1>For Individuals</h1>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+      <div class="right-section">
+        <div class="form-container">
+          <form action="">
+            <div class="outer-form-group">
+              <div class="form-group">
+                <label for="fname">First name</label>
+                <input type="text" name="fname" id="fname" />
+              </div>
+
+              <div class="form-group">
+                <label for="lname">Last name</label>
+                <input type="text" name="lname" id="lname" />
+              </div>
+            </div>
+
+            <div class="outer-form-group">
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                  <option value="" selected disabled>Select here</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+                <!-- <i class="fa-solid fa-angle-down"></i> -->
+              </div>
+
+              <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" id="dob" />
+              </div>
+            </div>
+
+            <div class="outer-form-group">
+              <div class="form-group">
+                <label for="weight">Weight (KG)</label>
+                <input
+                  type="number"
+                  name="weight"
+                  id="weight"
+                  placeholder="Enter weight"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="Height">Height (CM)</label>
+                <input
+                  type="number"
+                  name="height"
+                  id="height"
+                  placeholder="Enter height"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="activity">Activity Level</label>
+              <select name="activity" id="activity">
+                <option value="" selected disabled>Select here</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+              <i class="fa-regular fa-eye"></i>
+            </div>
+
+            <button type="submit">Register</button>
+          </form>
+          <p>
+            By clicking Register, you agree to our
+            <a href="#"> Terms of Use</a> and our
+            <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0b818736fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

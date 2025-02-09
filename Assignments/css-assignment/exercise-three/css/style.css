@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a5a7cc;
+}
+
+p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.wrist-watch-name {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#wrist-watch-series {
+  font-size: 20px;
+  opacity: 80%;
+}
+
+.card-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.banner {
+  background-color: #fcf1b6;
+  justify-items: center;
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-left: -20px;
+  width: fit-content;
+  position: absolute;
+  border-radius: 5px 20px 20px 5px;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+}

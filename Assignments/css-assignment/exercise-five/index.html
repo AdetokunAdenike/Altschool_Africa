@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>More Css Exercise 5</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-brand">
+          <img src="./asset/wppusher-logo.png" alt="wppusher logo" />
+        </div>
+        <div class="nav-menu">
+          <a href="#">Download</a>
+          <a href="#">Learn more</a>
+          <a href="#">Pricing</a>
+          <a href="#">Help</a>
+          <a href="#" class="btn-action">Account</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="main-container">
+        <div class="section-left">
+          <div class="title">
+            <h2>Checkout</h2>
+          </div>
+          <div class="section-basic">
+            <div class="info-header">
+              <span class="round-char">1</span>
+              <p>Your Basic Information</p>
+            </div>
+            <form action="">
+              <div class="outer-form-group">
+                <div class="form-group">
+                  <label for="fname">First Name</label>
+                  <input type="text" placeholder="Jane" />
+                </div>
+                <div class="form-group">
+                  <label for="lname">Last Name</label>
+                  <input type="text" placeholder="Doe" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="text"
+                  style="width: 70%"
+                  placeholder="janedoe@example.com"
+                />
+              </div>
+            </form>
+          </div>
+
+          <div class="section-payment">
+            <div class="info-header">
+              <span class="round-char">2</span>
+              <p>Your Payment Information</p>
+            </div>
+            <form action="">
+              <div class="form-group">
+                <label for="credit-card">Credit Card</label>
+                <span class="input-group">
+                  <input
+                    type="text"
+                    style="width: 70%"
+                    placeholder="Card Number"
+                  />
+                  <input type="text" style="width: 10%" placeholder="MM / YY" />
+                  <input type="text" style="width: 5%" placeholder="CVC" />
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <div class="section-purchase">
+            <button type="submit">Buy WP Pusher</button>
+            <div class="help-support">
+              <span class="round-question">?</span>
+              <p>
+                <span class="help-bold">Need any help?</span> Don't hesitate to
+                contact <br />
+                support!
+              </p>
+            </div>
+            <div class="img">
+              <img
+                src="./asset/powered_by_stripe.png"
+                alt="powered_by_stripe"
+                width="90"
+                height="20"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- SideBar -->
+        <div class="sidebar">
+          <div class="sidebar-content">
+            <div class="plan">
+              <p style="font-size: 20px">Freelancer</p>
+              <span class="pricing">
+                <p style="font-size: 24px">$</p>
+                <p style="font-size: 20px">
+                  <span style="font-size: 60px">99</span> / year
+                </p>
+              </span>
+              <p style="font-size: 16px; font-style: italic">
+                Automatically renews<br />after 1 year
+              </p>
+            </div>
+
+            <!-- details -->
+            <div class="details">
+              <span
+                ><img src="./asset/mark-shape.png" alt="mark-shape" /> Use on 5
+                client sites</span
+              >
+              <span
+                ><img src="./asset/mark-shape.png" alt="mark-shape" /> Private
+                repositories</span
+              >
+              <span
+                ><img src="./asset/mark-shape.png" alt="mark-shape" /> Email
+                support</span
+              >
+            </div>
+
+            <!-- switch -->
+            <div class="switch">
+              <p>Need 20 client sites?</p>
+              <p>Switch to the Agency plan</p>
+            </div>
+
+            <!-- quote -->
+            <div class="quote">
+              <p style="font-size: 18px; font-style: italic">
+                FTP is horrible to deal with. WP Pusher solves that issue, and
+                the customer support is awesome!
+              </p>
+              <span class="user">
+                <img src="./asset/bitmap.png" alt="user image" />
+                Kirk Beard
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-reserve">
+        <p>
+          © 2018 WP Pusher IVS ·
+          <span style="color: #316f8f">Terms of Service</span>
+        </p>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/0b818736fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
