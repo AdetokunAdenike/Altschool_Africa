@@ -1,0 +1,103 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation styles inside header */
+header ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Headings inside sections */
+section h2 {
+    margin-bottom: 10px;
+    color: #007acc;
+}
+
+/* Responsive image */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Audio and video elements */
+audio, video {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+/* Iframe styles */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #333;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
