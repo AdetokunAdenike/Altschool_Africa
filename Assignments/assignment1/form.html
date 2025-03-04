@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.cdnfonts.com/css/euclid-circular-a"
+      rel="stylesheet"
+    />
+
+    <title>Signup - AltSchool Africa</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <main class="wrapper">
+      <section class="section-left">
+        <div class="svg">
+          <img src="./assets/image.png" alt="Image Svg" />
+        </div>
+        <ul>
+          <li><a href="index.html">My Biography</a></li>
+          <li>
+            <a
+              href="https://altschool-africa-t6ie-adenikes-projects-18e2c627.vercel.app/"
+              >Assignment2</a
+            >
+          </li>
+        </ul>
+        <div class="accounts">
+          <div class="brands">
+            <a href="http://" target="_blank" rel="">
+              <i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="http://" target="_blank" rel=""
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="http://" target="_blank" rel=""
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="http://" target="_blank" rel=""
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <a href="mailto:adetokunadenike@gmail.com" class="text-16"
+            >adetokunadenike@gmail.com</a
+          >
+        </div>
+
+        <address>
+          <p>Dutse-Alhaji Abuja, Nigeria</p>
+        </address>
+
+        <p class="text-16 text-bold">
+          &lt;&lt;&lt; &copy; 2025 Adenike Adetokun. All rights reserved.
+          &gt;&gt;&gt;
+        </p>
+      </section>
+
+      <section class="section-right">
+        <p class="auth-para text-bold">
+          Already an AltScholar?
+          <a href="#/signin" class="link" id="signin-link">Sign In!</a>
+        </p>
+
+        <!-- Sign up form -->
+        <div class="form-wrapper" id="signup">
+          <div class="form-heading">
+            <h2>Signup</h2>
+            <p class="text-16 text-gray">
+              Take the next steps to apply at AltSchool Africa
+            </p>
+          </div>
+          <form>
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" placeholder="First Name" required />
+              </div>
+              <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" placeholder="Last Name" required />
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" required />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <select>
+                  <option value="Select gender" selected disabled>
+                    Select gender
+                  </option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" placeholder="Phone Number" required />
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="country">Country of Residence</label>
+                <input
+                  type="text"
+                  placeholder="Country of Residence"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="state">State of Residence</label>
+                <input type="text" placeholder="State of Residence" required />
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="password">Password</label>
+                <!-- <span class="password"> -->
+                <input type="password" placeholder="Password" required />
+                <i class="fa-regular fa-eye"></i>
+                <!-- </span> -->
+              </div>
+              <div class="form-group">
+                <label for="cpassword">Confirm Password</label>
+                <input
+                  type="password"
+                  placeholder="Confirm Password"
+                  required
+                />
+                <i class="fa-regular fa-eye"></i>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="hear_abt_us">How did you hear about us?</label>
+                <input
+                  type="text"
+                  placeholder="Optional: Let us know how you found us"
+                />
+              </div>
+            </div>
+
+            <p class="text-16 text-gray">
+              By clicking continue, I agree to <a href="#">Terms of Use</a> and
+              acknowledge that I have read the <a href="#">Privacy Policy</a>.
+            </p>
+            <button type="submit">
+              Signup <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Sign In form -->
+        <div
+          class="form-wrapper content-hide"
+          id="signin"
+          style="width: inherit"
+        >
+          <div class="form-heading">
+            <h2>Sign In</h2>
+            <p class="text-16 text-gray">
+              Enter your email address and password to securely log in to
+              AltSchool Student Portal
+            </p>
+          </div>
+
+          <form>
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" required />
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="password">Password</label>
+                <!-- <span class="password"> -->
+                <input type="password" placeholder="Password" required />
+                <i class="fa-regular fa-eye"></i>
+                <p class="text-bold text-gray">Must be at least 8 characters</p>
+                <!-- </span> -->
+              </div>
+            </div>
+            <button type="submit">
+              Proceed to Dashboard <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <div class="text-center">
+              <p class="text-bold text-16">
+                Forgot your password?
+                <a href="#/reset-password" class="text-bold" id="reset-link"
+                  >Reset Now!</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <!-- forget password form -->
+        <div
+          class="form-wrapper content-hide"
+          id="reset-password"
+          style="width: inherit"
+        >
+          <div class="form-heading">
+            <h2>Forgot Password</h2>
+            <p class="text-16 text-gray">
+              Having issues remembering your password? You can recover it using
+              the email associated with your account
+            </p>
+          </div>
+
+          <form>
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" required />
+              </div>
+            </div>
+
+            <button type="submit">
+              Continue <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+            <div class="text-center">
+              <p class="text-bold text-16">
+                Remember your password?
+                <a href="#/signin" id="signin-link">Sign In</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/0b818736fc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
